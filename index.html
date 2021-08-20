@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1 class="text-center my-5">Student<span class="text-success"> Directory</span> List</h1></div>
+        <form action="" class="form">
+            <label for="">Name</label>
+            <input id="name" type="text" class="form-control"> <br>
+            <label for="">Address</label>
+            <input id="address" type="text" class="form-control"> <br>
+            <label for="">Class Roll</label>
+            <input id="roll" type="text" class="form-control"> <br>
+            <h5 id="wrong" class="text-danger text-center mt-1">Please Enter Your Information!</h5>
+            <input id="submit-button" type="submit" value="Add Now" class="btn btn-success d-block w-100">
+        </form>
+        <table class="table table-success table-striped my-5 text-center text-uppercase">
+            <thead>
+                <tr>
+                    <td>Sr.</td>
+                    <td>Name</td>
+                    <td>Address</td>
+                    <td>Class Roll</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+          </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
